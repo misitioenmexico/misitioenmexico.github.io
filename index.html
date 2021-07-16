@@ -9,7 +9,7 @@
 <style>
 
 
-#button1 {
+#myDIV {
 background-color: black;
 color: white;
 padding: 12px;
@@ -46,7 +46,7 @@ display: block;
 <div class="dropdowndemo">
 <div class="dropdownlist-content">
 
-
+<div id="myDIV">
 
 <ul>
 <li><a href="./estadodemexico.html">Estado de Mexico</a></li>
@@ -84,10 +84,11 @@ display: block;
 </ul>
 </div>
 </div>
+</div>
 
 <script>
 function myFunction() {
-  var x = document.getElementById("button1");
+  var x = document.getElementById("myDIV");
   if (x.style.display === "none") {
     x.style.display = "block";
   } else {
