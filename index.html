@@ -7,16 +7,63 @@
     <title>misitioenmexico</title>
 
 <style>
+  
+  
+dropdowndemo{
 
-#myDIV {
-  width: 100%;
-  padding: 50px 0;
-  text-align: center;
-  background-color: lightblue;
-  margin-top: 20px;
+position:fixed;
+
+display: block;
+
+}
+  
+  .dropdownbtn {
+
+background-color: black;
+
+color: white;
+
+padding: 12px;
+
+font-size: 12px;
+
 }
 
+  .dropdownlist-content {
 
+display: none;
+
+position: absolute;
+
+background-color: greenyellow;
+
+min-width: 120px;
+
+z-index: 1;
+
+}
+
+.dropdownlist-content a {
+
+color: darkblue;
+
+padding: 14px 18px;
+
+display: block;
+
+}
+
+.dropdownlist-content a:hover {background-color: lightcyan;}
+  
+
+
+  
+  
+dropdowndemo:hover .dropdownlist-content {display: block;}
+
+.dropdowndemo:hover .dropdownbtn {background-color: blue;}
+
+  
 </style>
 
 
@@ -26,15 +73,17 @@
 <p>presiona en el cuadro negro</p>
 
 
+  
+  
 <div class="dropdowndemo">
-<div class="dropdownlist-content">
 
-<button onclick="myFunction()">misitioenmexico.com.mx</button>
-<div id="myDIV">
 
+<button class="dropdownbtn" onclick="myFunction()">misitioenmexico.com.mx</button>
+
+<div id="dropdownlist-content">
+  
 
 <ul>
-<li><a href="./estadodemexico.html">Estado de Mexico</a></li>
 <li><a href="./jalisco.html">Jalisco</a></li>
 <li><a href="./guerrero.html">Guerrero</a></li>
 <li><a href="./nuevoleon.html">Nuevo Leon</a></li>
@@ -68,11 +117,14 @@
 <li><a href="./campeche.html">Campeche</a></li>
 </ul>
 </div>
+  </div>
+  </div>
+  
 
 
 <script>
 function myFunction() {
-  var x = document.getElementById("myDIV");
+  var x = document.getElementById("dropdownlist-content");
   if (x.style.display === "none") {
     x.style.display = "block";
   } else {
