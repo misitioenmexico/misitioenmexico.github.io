@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html>
+
   <head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
     <title>misitioenmexico</title>
 
 <style>
@@ -40,7 +43,7 @@ display: block;
 <button class="dropdownbtn">misitioenmexico.com.mx</button>
 <div class="dropdownlist-content">
 
-
+<button onclick="myFunction()">Try it</button>
 
 <div class="">
 <ul>
@@ -79,5 +82,19 @@ display: block;
 </ul>
 </div>
 </div>
+
+
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myDIV");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>
+
 </body>
 </html>
