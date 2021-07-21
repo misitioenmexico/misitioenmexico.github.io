@@ -7,7 +7,7 @@ background-color:#ffffbf;
   width:200px;
   background-color:#fff;
   position:fixed!important;
-  
+  z-index: 1;
   overflow:auto;
   }
 
