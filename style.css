@@ -42,7 +42,7 @@ background-color:#ffffbf;
   white-space:normal;
   }
 
-.mx-button::hover{
+.mx-button:hover{
   color:#000!important;
   background-color:#ccc!important;
   }
