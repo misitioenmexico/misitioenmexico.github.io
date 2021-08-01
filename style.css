@@ -3,15 +3,15 @@
   height:100%;
   width:200px;
   background-color:#fff;
-  position:fixed!important;
+  position:fixed;
   z-index: 1;
-  overflow:auto;
+  overflow: scroll;
   }
 
 
 .mx-light-grey{
   color:#000!important;
-  background-color:#f1f1f1!important;
+  background-color:#f1f1f1;
   }
   
 .mx-bar-block{
@@ -41,7 +41,7 @@
 
 .mx-button:hover{
   color:#000!important;
-  background-color:#ccc!important;
+  background-color:#ccc;
   }
 
 .mx-button{
@@ -61,6 +61,6 @@
 }
 
 .mx-teal{
-  color:#fff!important;
-  background-color:#009688!important;
+  color:#fff;
+  background-color:#009688;
   }
