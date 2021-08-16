@@ -56,7 +56,8 @@
 }
 
 .mx-teal a {
-  
+
+  text-decoration:none;
   color:white;
   background-color:#009688;
   }
