@@ -55,7 +55,8 @@
   padding:0.01em 16px;
 }
 
-.mx-teal{
-  color:#fff;
+.mx-teal a {
+  
+  color:white;
   background-color:#009688;
   }
