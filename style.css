@@ -28,7 +28,7 @@
   
 }
   
-.mx-bar-item{
+.mx-bar-item {
   padding:8px 16px;
   float:left;
   width:auto;
@@ -36,6 +36,10 @@
   display:block;
   outline:0;
 }
+
+.mx-bar-item a {
+ text-decoration: none;
+ }
 
 .mx-button{
   white-space:normal;
