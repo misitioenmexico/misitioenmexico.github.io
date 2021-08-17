@@ -12,8 +12,7 @@
 
 
 .mx-light-grey{
-  color:#000;
-  background-color:#f1f1f1;
+  background-color:grey;
   }
   
 .mx-bar-block{
@@ -29,6 +28,8 @@
 }
   
 .mx-bar-item {
+  text-decoration:none;
+  color:white;
   padding:8px 16px;
   float:left;
   width:auto;
