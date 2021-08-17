@@ -52,7 +52,7 @@
   content:"";
   display:inline;
   clear:both;
-  padding:0.01em 16px;
+  padding:5px 16px;
 }
 
 .mx-teal a {
@@ -60,6 +60,6 @@
   text-decoration:none;
   color:white;
   background-color:#009688;
-  padding:0.01em 16px;
+  padding:5px 16px;
 
   }
