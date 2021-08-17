@@ -50,7 +50,7 @@
 
 .mx-container{
   content:"";
-  display:inline;
+  display:block;
   clear:both;
   padding:5px 16px;
 }
