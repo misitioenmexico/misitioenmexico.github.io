@@ -5,7 +5,7 @@
   height:100%;
   width:200px;
   background-color:#fff;
-  position:fixed;
+  position:static;
   z-index: 0;
   overflow-y: auto;
   }
