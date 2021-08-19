@@ -1,6 +1,3 @@
-
-
-
 .mx-sidebar{
   height:100%;
   width:200px;
@@ -12,10 +9,13 @@
 
 
 .mx-light-grey{
+  
   background-color:grey;
   }
   
 .mx-bar-block{
+  top:3px;
+  left:0;
   width:100%;
   display:block;
   padding:8px 16px;
@@ -30,7 +30,7 @@
 .mx-bar-item {
   text-decoration:none;
   color:white;
-  padding:8px 16px;
+  padding:8px;
   float:left;
   width:auto;
   border:none;
@@ -38,11 +38,10 @@
   outline:0;
 }
 
-.mx-bar-item a {
- text-decoration: none;
- }
 
-.mx-button{
+ 
+
+.mx-button {
   white-space:normal;
   }
 
@@ -54,17 +53,17 @@
 
 
 .mx-container{
-  content:"";
+  
   display:block;
   clear:both;
-  padding:5px 16px;
+  padding:25px;
 }
 
 .mx-teal a{
-
+  font-size:30px;
   text-decoration:none;
   color:white;
   background-color:#009688;
-  padding:5px 16px;
+  padding:20px;
 
   }
