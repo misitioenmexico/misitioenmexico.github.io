@@ -62,6 +62,10 @@
 
   }
 
+.scrollmenu {
+  width: 295px;
+}
+
 div.scrollmenu {
   background-color: #333;
   overflow: auto;
