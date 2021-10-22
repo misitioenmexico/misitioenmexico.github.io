@@ -53,17 +53,19 @@
 
 
 
+
 .mx-teal a{
   font-size:30px;
   text-decoration:none;
   color:white;
   background-color:#009688;
   padding:20px;
+  
 
   }
 
-.scrollmenu {
-  width: 270px;
+ .scrollmenu {
+  width: 295px;
 }
 
 div.scrollmenu {
@@ -89,4 +91,19 @@ div.scrollmenu a:hover {
   clear:both;
   padding:25px;
   
+ 
+}
+
+footer {
+  background-color:#009688;
+  display: block;
+  color: white;
+  height: 100px;
+  
+  bottom: 100px;
+  margin: 360px 4px 7px 7px;
+  padding: 30px 7px 8px 8px;
+  
+
+
 }
