@@ -96,13 +96,15 @@ div.scrollmenu a:hover {
 
 footer {
   background-color:#009688;
-  display: block;
-  color: white;
-  height: 100px;
+  position:absolute;
+  display:block;
+
+  color:white;
+  height:100px;
   
-  bottom: 100px;
-  margin: 360px 4px 7px 7px;
-  padding: 30px 7px 8px 8px;
+  bottom:-26px;
+  margin:360px 4px 7px 7px;
+  padding:30px 7px 8px 8px;
   
 
 
