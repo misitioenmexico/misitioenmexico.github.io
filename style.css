@@ -72,7 +72,7 @@
   height: 30px;
   color:white;
   background-color:#009688;
-  padding: 40px 55px;
+  padding: 40px 15%;
   margin: -22px;
   
 
@@ -82,7 +82,7 @@
   display: inline-block;
   width: 100%;
   margin: 0px;
-  padding: 0px;
+  padding: 0px 11%;
 }
 
 div.scrollmenu {
