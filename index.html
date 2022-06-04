@@ -1,119 +1,170 @@
 <!DOCTYPE html>
-<html lang="es">
-  <head>
-<link rel="stylesheet" href="./style.css">
-
-<meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <meta charset="utf-8">
-    <title>misitioenmexico</title>
-    
-    
-
-
+<html lang="en">
+<head>
+  <title>Bootstrap 4 Website Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+  <style>
+  .fakeimg {
+    height: 200px;
+    background: #aaa;
+  }
+  </style>
 </head>
 <body>
+
+<div class="jumbotron text-center" style="margin-bottom:0">
+  <h1>Misitioenmexico</h1>
   
+</div>
+
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+  <a class="navbar-brand" href="#">Estados de Mexico</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="collapsibleNavbar">
+    <ul class="navbar-nav">
       
-
-  <!-- Sidebar -->
-
-  <div class="mx-sidebar mx-light-grey mx-bar-block" style="width: 25%;">
-  <h3 class="mx-bar-item">Estados</h3>
-
-<!-- input tag -->
-
-    <input id="searchbar" onkeyup="search_estado()" type="text"
-        name="search" placeholder="Busca un estado..">
-
-<!-- Test code -->
-
-
+      <li class="nav-item">
+       
+        <a class="nav-link" href="./jalisco.html" >Jalisco</a>
+</li>
+ <li class="nav-item">
+<a class="nav-link" href="./guerrero.html" >Guerrero</a>
+</li>
+ <li class="nav-item">
+<a class="nav-link" href="./nuevoleon.html" >Nuevo Leon</a>
+</li>
+ <li class="nav-item">
+<a class="nav-link" href="./tabasco.html">Tabasco</a>
+</li>
+ <li class="nav-item">
+<a class="nav-link" href="./michoacan.html">Michoacan</a>
+</li>
+ <li class="nav-item">
+<a class="nav-link" href="./yucatan.html">Yucatan</a>
+</li>
+ <li class="nav-item">
+<a class="nav-link" href="./bajacalifornia.html">Baja California</a>
+</li>
+ <li class="nav-item">
+<a class="nav-link" href="./chiapas.html">Chiapas</a>
+</li>
+ <li class="nav-item">
+<a class="nav-link" href="./tamaulipas.html">Tamaulipas</a>
+</li>
+ <li class="nav-item">
+<a class="nav-link" href="./sonora.html">Sonora</a>
+</li>
+ <li class="nav-item">
+<a class="nav-link" href="./estadodehidalgo.html">Estado de Hidalgo</a>
+</li>
+ <li class="nav-item">
+<a class="nav-link" href="./quintanaroo.html">Quintana Roo</a>
+</li>
+ <li class="nav-item">
+<a class="nav-link" href="./zacatecas.html">Zacatecas</a>
+</li>
+ <li class="nav-item">
+<a class="nav-link" href="./coahuiladezaragoza.html">Coahuila de Zaragoza</a>
+</li>
+ <li class="nav-item">
+<a class="nav-link" href="./tlaxcala.html">Tlaxcala</a>
+</li>
+ <li class="nav-item">
+<a class="nav-link" href="./nayarit.html">Nayarit</a>
+</li>
+ <li class="nav-item">
+<a class="nav-link" href="./morelos.html">Morelos</a>
+</li>
+ <li class="nav-item">
+<a class="nav-link" href="./ciudaddemexico.html">Ciudad de Mexico</a>
+</li>
+ <li class="nav-item">
+<a class="nav-link" href="./estadodemexico.html">Estado de Mexico</a>
+</li>
+ <li class="nav-item">
+<a class="nav-link" href="./durango.html">Durango</a>
+</li>
+ <li class="nav-item">
+<a class="nav-link" href="./bajacaliforniasur.html">Baja California Sur</a>
+</li>
+ <li class="nav-item">
+<a class="nav-link" href="./veracruz.html">Veracruz</a>
+</li>
+ <li class="nav-item">
+<a class="nav-link" href="./sinaloa.html">Sinaloa</a>
+</li>
+ <li class="nav-item">
+<a class="nav-link" href="./guanajuato.html">Guanajuato</a>
+</li>
+ <li class="nav-item">
+<a class="nav-link" href="./sanluispotosi.html">San Luis Potosi</a>
+</li>
+ <li class="nav-item">
+<a class="nav-link" href="./chihuahua.html">Chihuahua</a>
+</li>
+ <li class="nav-item">
+<a class="nav-link" href="./queretaro.html">Queretaro</a>
+</li>
+ <li class="nav-item">
+<a class="nav-link" href="./puebla.html">Puebla</a>
+</li>
+ <li class="nav-item">
+<a class="nav-link" href="./oaxaca.html">Oaxaca</a>
+</li>
+ <li class="nav-item">
+<a class="nav-link" href="./aguascalientes.html">Aguascalientes</a>
+</li>
+ <li class="nav-item">
+<a class="nav-link" href="./colima.html">Colima</a>
+</li>
+ <li class="nav-item">
+<a class="nav-link" href="./campeche.html">Campeche</a>
  
+      </li>    
+    </ul>
+  </div>  
+</nav>
 
-  
-<a href="./jalisco.html" class="mx-bar-item mx-button">Jalisco</a>
-<a href="./guerrero.html" class="mx-bar-item mx-button">Guerrero</a>
-<a href="./nuevoleon.html" class="mx-bar-item mx-button">Nuevo Leon</a>
-<a href="./tabasco.html" class="mx-bar-item mx-button">Tabasco</a>
-<a href="./michoacan.html" class="mx-bar-item mx-button">Michoacan</a>
-<a href="./yucatan.html" class="mx-bar-item mx-button">Yucatan</a>
-<a href="./bajacalifornia.html" class="mx-bar-item mx-button">Baja California</a>
-<a href="./chiapas.html" class="mx-bar-item mx-button">Chiapas</a>
-<a href="./tamaulipas.html" class="mx-bar-item mx-button">Tamaulipas</a>
-<a href="./sonora.html" class="mx-bar-item mx-button">Sonora</a>
-<a href="./estadodehidalgo.html" class="mx-bar-item mx-button">Estado de Hidalgo</a>
-<a href="./quintanaroo.html" class="mx-bar-item mx-button">Quintana Roo</a>
-<a href="./zacatecas.html" class="mx-bar-item mx-button">Zacatecas</a>
-<a href="./coahuiladezaragoza.html" class="mx-bar-item mx-button">Coahuila de Zaragoza</a>
-<a href="./tlaxcala.html" class="mx-bar-item mx-button">Tlaxcala</a>
-<a href="./nayarit.html" class="mx-bar-item mx-button">Nayarit</a>
-<a href="./morelos.html" class="mx-bar-item mx-button">Morelos</a>
-<a href="./ciudaddemexico.html" class="mx-bar-item mx-button">Ciudad de Mexico</a>
-<a href="./estadodemexico.html" class="mx-bar-item mx-button">Estado de Mexico</a>
-<a href="./durango.html" class="mx-bar-item mx-button">Durango</a>
-<a href="./bajacaliforniasur.html" class="mx-bar-item mx-button">Baja California Sur</a>
-<a href="./veracruz.html" class="mx-bar-item mx-button">Veracruz</a>
-<a href="./sinaloa.html" class="mx-bar-item mx-button">Sinaloa</a>
-<a href="./guanajuato.html" class="mx-bar-item mx-button">Guanajuato</a>
-<a href="./sanluispotosi.html" class="mx-bar-item mx-button">San Luis Potosi</a>
-<a href="./chihuahua.html" class="mx-bar-item mx-button">Chihuahua</a>
-<a href="./queretaro.html" class="mx-bar-item mx-button">Queretaro</a>
-<a href="./puebla.html" class="mx-bar-item mx-button">Puebla</a>
-<a href="./oaxaca.html" class="mx-bar-item mx-button">Oaxaca</a>
-<a href="./aguascalientes.html" class="mx-bar-item mx-button">Aguascalientes</a>
-<a href="./colima.html" class="mx-bar-item mx-button">Colima</a>
-<a href="./campeche.html" class="mx-bar-item mx-button">Campeche</a>
+<div class="container" style="margin-top:30px">
+  <div class="row">
+    <div class="col-sm-4">
+      <h2>Sobre Misitioenmexico</h2>
+      
+      
+      <p>Este sitio es para evitar la perdida te tiempo en la busqueda de informacion que necesitas para continuar con tu dia.</p>
+      <h3>Unos enlaces</h3>
+      
+      <ul class="nav nav-pills flex-column">
+        <li class="nav-item">
+     <li class="nav-item">
+<a class="nav-link" href="./noticieros.html">Noticieros</a>
+</li>
+ <li class="nav-item">
+  <a class="nav-link" href="./servicioalcliente.html">Atencion Telefonica</a>
+</li>
+ <li class="nav-item">
+  <a class="nav-link" href="./geolocalizador.html">Herramientas</a>
 
-
-
-
-  
+        </li>
+       
+      </ul>
+      
+    </div>
+   
+    </div>
+  </div>
 </div>
 
-
-<!-- Page Content -->
-
-<div class="mx-content">
-
-<div class="mx-teal">
-  <h1><a href="./index.html">misitioenmexico</a></h1>
-
-
+<div class="jumbotron text-center" style="margin-bottom:0">
+  <p></p>
 </div>
-
-
-<div class="scrollmenu">
-  <a href="./noticieros.html">Noticieros</a>
-  <a href="./servicioalcliente.html">Atencion Telefonica</a>
-  <a href="./geolocalizador.html">Herramientas</a>
-  <a href="#">vacio</a>
-  <a href="#">vacio</a>
-  <a href="#">vacio</a>
-  <a href="#">vacio</a>  
-  <a href="#">vacio</a>
-  <a href="#">vacio</a>
-  <a href="#">vacio</a>
-  <a href="#">vacio</a>
-  <a href="#">vacio</a>
-  <a href="#">vacio</a>
-  <a href="#">vacio</a>
-  <a href="#">vacio</a>
-</div>
-
-
-<div class="mx-container">
-
-
-</div>
-
-</div>
-
-
-
-<!-- linking javascript -->
-    <script type="text/javascript" src="./estados.js"></script>
-    
 
 </body>
 </html>
